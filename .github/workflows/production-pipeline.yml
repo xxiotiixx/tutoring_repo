@@ -8,7 +8,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}S
+  IMAGE_NAME: ${{ github.repository }}
 
 jobs:
   # Stage 1: Build and Test
